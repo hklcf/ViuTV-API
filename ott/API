@@ -1,0 +1,5 @@
+get ccs_product_id, subtitle
+http://www.viu.com/ott/hk/index.php?r=vod/ajax-detail&platform_flag_label=web&user_id=undefined&product_id={$product_id}
+
+get m3u8 link
+https://d1k2us671qcoau.cloudfront.net/distribute_web_hk.php?ccs_product_id={$ccs_product_id}
