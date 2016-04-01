@@ -1,3 +1,4 @@
+Viu.com
 get ccs_product_id, subtitle
 http://www.viu.com/ott/hk/index.php?r=vod/ajax-detail&platform_flag_label=web&user_id=undefined&product_id={$product_id}
 
@@ -9,3 +10,5 @@ http://www.viu.com/ott/hk/index.php?r=category/series-category&platform_flag_lab
 http://www.viu.com/ott/hk/index.php?r=category/series-category&platform_flag_label=web&category_id={$category_id}&length={$lenght}&offset={$offset}
 
 subtitle (.srt)
+
+Viu.tv
