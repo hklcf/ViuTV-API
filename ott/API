@@ -12,4 +12,7 @@ http://www.viu.com/ott/hk/index.php?r=category/series-category&platform_flag_lab
 subtitle (.srt)
 
 Viu.tv
+
 curl 'http://api.viu.now.com/p8/1/getLiveURL' -H 'Origin: http://www.viu.tv' -H 'Accept-Encoding: gzip, deflate' -H 'Accept-Language: zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4' -H 'User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36' -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' -H 'Accept: */*' -H 'Cache-Control: max-age=0' -H 'Referer: http://www.viu.tv/ch/99' -H 'Connection: keep-alive' --data '{"channelno":"099","mode":"review","deviceId":"000000000000000000","format":"HLS"}' --compressed
+
+https://nowtv100-i.akamaihd.net/hls/live/229941/live1/master.m3u8
