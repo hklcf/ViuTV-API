@@ -10,7 +10,7 @@
 <body>
   <div id="result"></div>
 <script>
-  $.post("http://api.viu.now.com/p8/1/getLiveURL", '{"channelno":"099","deviceId":"0000anonymous_user","format":"HLS"}', function(data){
+  $.post("//api.viu.now.com/p8/1/getLiveURL", '{"channelno":"099","deviceId":"0000anonymous_user","format":"HLS"}', function(data){
     $("#result").empty().append(data.asset.hls.adaptive[0]);
   }, "json");
 </script>
