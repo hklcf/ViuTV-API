@@ -1,9 +1,9 @@
 <?php
 /*
-    Version: 1.0
+    Version: 1.1
     Author: HKLCF
     Copyright: HKLCF
-    Last Modified: 09/04/2016
+    Last Modified: 03/06/2020
 */
 $login_ch = curl_init();
 $login_data = '{"contentId":"099","deviceId":"0000anonymous_user","deviceType":"IOS_PHONE"}';
