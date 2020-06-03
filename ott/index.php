@@ -14,5 +14,5 @@ curl_setopt($login_ch, CURLOPT_POSTFIELDS, $login_data);
 $ott_token_json = curl_exec($login_ch);
 curl_close($login_ch);
 $ott_token_result = json_decode($ott_token_json, true);
-echo $ott_token_result['asset']['hls']['adaptive'][0];
+echo $ott_token_result['asset'][0];
 ?>
