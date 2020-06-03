@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<meta name="robots" content="noindex">
 <html>
 <head>
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="robots" content="noindex">
   <title>ViuTV</title>
 </head>
 <body>
   <div id="result"></div>
 <script>
-  $.post("//api.viu.now.com/p8/1/getLiveURL", '{"channelno":"099","deviceId":"0000anonymous_user","format":"HLS"}', function(data){
-    $("#result").empty().append(data.asset.hls.adaptive[0]);
+  $.post("//api.viu.now.com/p8/3/getLiveURL", '{"contentId":"099","deviceId":"0000anonymous_user","deviceType":"IOS_PHONE"}', function(data){
+    $("#result").empty().append(data.asset[0]);
   }, "json");
 </script>
 </body>
